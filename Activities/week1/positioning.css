@@ -11,12 +11,18 @@
   body {
   }
   
-  header {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #CCC;
+ 
+  #p1 {
+      text-align: left;
+      margin-left: 200px;
+      margin-right: 200px;
   }
+
+  #p2 {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
   
   section {
   }
@@ -30,49 +36,40 @@
     
     
   }
-  
-  #middle {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: white;
-    background:#888;
-    width: 150px;
-  }
-  
-  #right {
-    padding: 20px;
-    margin-bottom: 20px;
-    color:white;
-    background:#666;
-    width: 150px;
-  }
+   
   
   #full {
+     padding: 70px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     background:lightgray;
+     margin-left: 200px ;
+     margin-right: 200px;
+
+ }  
+  #division1 {
+    position: absolute;
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
-    background:#eee;
+    background:#888;
   }
-  
-  #division {
+
+  #division2 {
+    position: absolute;
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
-    background:#6ea3da;
+    background:#888;
   }
-  
-  aside {
-    padding: 60px;
-    margin-bottom: 20px;
-    color: #333;
-    background:#fff;
-    float: left;
-    
-  }
-  
-  footer {
+
+  #division3 {
+    position: absolute;
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
-    background:#ccc;  
+    background:#999;
+    float:right;
   }
+  
+  
