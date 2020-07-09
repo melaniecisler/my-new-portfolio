@@ -1,0 +1,10 @@
+/*custom css*/
+
+
+
+
+@media all and (max-width: 768px) {
+    .text {
+    display: none;
+}
+}
