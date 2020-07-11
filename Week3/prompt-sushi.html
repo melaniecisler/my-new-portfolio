@@ -13,10 +13,16 @@
     /*this will show true/false in console)
     which is okay/cancel */
 
-    var promptResponse = prompt("what kind of sushi do you like?");
-    console.log(promptResponse);
+    /*added if/else statements, if this is true, then, else*/
+    if(confirmResponse){
+        
+        var promptResponse = prompt("what kind of sushi do you like?");
+        console.log(promptResponse);
 
-    console.log("your favorite sushi is " + promptResponse);
+        console.log("your favorite sushi is " + promptResponse);
+    } else {
+        console.log("you don't like sushi");
+    }
 
     alert (confirmResponse);
     alert (promptResponse);
