@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>activity</title>
+  </head>
+  <body>
+    
+    <script type="text/javascript">
+
+//==========================================================================Example1
+/*
+    var confirmResponse = confirm("do you like sushi?");
+    console.log(confirmResponse);
+    /*this will show true/false in console)
+    which is okay/cancel */
+
+    /*added if/else statements, if this is true, then, else*//*
+    if(confirmResponse){
+        
+        var promptResponse = prompt("what kind of sushi do you like?");
+        console.log(promptResponse);
+
+        console.log("your favorite sushi is " + promptResponse);
+    } else {
+        console.log("you don't like sushi");
+    }
+
+    alert (confirmResponse);
+    alert (promptResponse);
+*/
+//====================================================================
+//======================================================================Example2
+    var promptResponse = prompt("Do you eat steak?");
+
+    if (promptResponse === "yes") {
+        console.log("Here's a Steak Sandwhich!");
+    } else if (promptResponse === "no") {
+        console.log("Here's a Tofu Stir-Fry!");
+    }else{
+        console.log("please answer yes or no! and start again");
+    }
+    var sakiResponse = prompt("What is your birth year?");
+
+    if(sakiResponse >= 1998){
+        console.log("No sake for you!");
+    }    else{
+            console.log("CHEERS!!!");
+        
+    }
+    alert(sakiResponse);
+//===============================================================================
+    </script>
+    
+  </body>
+</html>
