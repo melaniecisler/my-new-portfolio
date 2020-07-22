@@ -45,23 +45,24 @@ window.addEventListener('load', function() {
   
   
   const randomFunc = {
+    
+    number: getRandomNumber,
+    special: getRandomSymbol,
     lower: getRandomLower,
     upper: getRandomUpper,
-    number: getRandomNumber,
-    special: getRandomSymbol
   };
   
-  function generatePassword(lower, upper, number, special, length) {
+  function generatePassword(number, special, lower, upper, length) {
     let generatedPassword = '';
-    const typesCount = lower + upper + number + special;
+    const typesCount = number + special + lower + upper;
     const typesArr = [{
-      lower
-    }, {
-      upper
-    }, {
       number
     }, {
       special
+    }, {
+      upper
+    }, {
+      lower
     }].filter(item => Object.values(item)[0]);
   
     // create a loop
@@ -78,6 +79,14 @@ window.addEventListener('load', function() {
   }
   
   // Generator functions
+  function getRandomNumber() {
+    return rando(9);
+  }
+  
+  function getRandomSymbol() {
+    return rando('!@#$%^&*(){}[]=<>/,.');
+  }
+
   function getRandomLower() {
     return rando("abcdefghijklmopqrstuvwxyz")
   }
@@ -86,10 +95,4 @@ window.addEventListener('load', function() {
     return rando("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
   }
   
-  function getRandomNumber() {
-    return rando(9);
-  }
   
-  function getRandomSymbol() {
-    return rando('!@#$%^&*(){}[]=<>/,.');
-  }
