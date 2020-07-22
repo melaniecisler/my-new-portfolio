@@ -23,7 +23,7 @@ window.addEventListener('load', function() {
     const resultEl = document.getElementById('password');
   
     document.getElementById('generate').addEventListener('click', () => {
-      resultEl.value = generatePassword(confirmNumber, confirmSpecial, confirmLower, confirmUpper, passwordLength);
+      resultEl.value = generatePassword(confirmNumber, confirmSpecial, confirmUpper, confirmLower, passwordLength);
     });
   
     document.getElementById('clipboard').addEventListener('click', () => {
