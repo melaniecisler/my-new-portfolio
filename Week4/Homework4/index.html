@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <title> Coding Quiz Challenge</title>
+ 
+</head>
+<body>
+
+  
+  <!-- top row has View Highscores, and Time countdown -->
+  <div class="container-fluid">
+    <header class="row justify-content-between jumbo p-2">
+      <div class="col-3">
+        <span id="view-highscores">View Highscores</span>
+      </div>
+      <div class="col-3 text-right">
+        <p id="time-left"></p>
+      </div>
+    </header>
+  </div>
+
+  <!-- quiz description,  Start Quiz button -->
+  <div id="main-prompt" class="jumbotron text-center">
+    <div class="container">
+      <h1 id="start-end" class="display-5">Coding Quiz Challenge</h1>
+      <p class="lead">
+       Your JavaScript Coding Quiz consists of 5 questions. You have 75 seconds to answer. <strong>Be Careful!!</strong> you lose 10 seconds for every wrong answer.
+       Good Luck and don't forget to log your Highscore. 
+      </p>
+      <hr class="my-4" />
+      <p id="description"></p>
+      <button type="button" id="start-quiz" class="btn btn-primary btn-md">Start Quiz</button>
+    </div>
+  </div>
+
+  <!-- Start of the main div -->
+  <div id="main-content" class="d-none">
+
+    <!-- container for quiz questions/answers -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-8 col-lg-6">
+          <p id="questions"></p>
+
+          <div id="answers"></div>
+
+          <form id="score-form" class="form-inline mb-3 d-none">
+            <label for="initials">Enter Initials:</label>
+            <input type="text" id="initials" class="form-control ml-2" />
+            <button type="submit" id="submit-initials" class="btn btn-primary m-2">Submit</button>
+          </form>
+
+          <form id="highscore-buttons" class="form-inline mb-3 d-none">
+            <button type="button" id="go-back-button" class="btn btn-primary mr-2">Go Back</button>
+            <button type="button" id="clear-highscores-button" class="btn btn-primary">Clear Highscores</button>
+          </form>
+
+          <div id="correct-or-wrong" class="p-1 w-100 d-none"></div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/questions.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.jumbo {
+  background-color: #888;
+}
+
+.jumbotron {
+  padding-top: 1rem;
+}
+
+#correct-or-wrong {
+    border-top: 3px solid #ddd;
+  }
+  
+  #answers button {
+    border-radius: 1rem;
+  }
+  
+  #questions {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #view-highscores:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  
