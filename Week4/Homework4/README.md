@@ -7,7 +7,7 @@ Coding Quiz Challenge:
 This is a JavaScript Quiz asking relevant coding questions with multiple choice options. Using front-end concepts, Bootstrap, some jQuery, and
 dynamically updated HTML and CSS that runs in your browser. Press Start Quiz button to begin. 
 
-Hosted in GitHub at: 
+Hosted in GitHub at: https://melaniecisler.github.io/my-new-portfolio/Week4/Homework4/index.html
 
 Description:
 To start the quiz hit the start button. The user is asked multiple choice quiz questions based on JavaScript. 
