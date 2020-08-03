@@ -6,4 +6,4 @@ jQuery to make an event planner website more accessible. Some challenges I faced
 
 Installation: Using Chrome or a favorite browser to copy link https://melaniecisler.github.io/my-new-portfolio/Week5/Homework5/Develop/index.html
 
-To Use: Seeing today's date and using text box in the time slot you want to change, add or delete events then click save icon. Refreshing page should not affect saved changes as the new information is stored in local storage. 
+To Use: Seeing today's date and using text box in the time slot you want to change, add or delete events then click save icon. Refreshing page should not affect saved changes as the new information is stored in local storage. Be sure to click save icon to save your changes or refresh will undo them before they are sent to local storage. 
