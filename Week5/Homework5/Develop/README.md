@@ -3,4 +3,7 @@ Project Title: Work Day Scheduler
 Description: In this project the Work Day Scheduler Website was refactored using HTML, CSS, JavaScript, Bootstrap, JSON and
 jQuery to make an event planner website more accessible. Some challenges I faced was trying to get some of the event listeners to respond. I really need to make sure element names match one another so the right calls are made.  I had trouble getting the noon time to actually be PM and not AM. This is one feature I still need to work on. Adding a better CSS layout would help too as mine is pretty basic other than the coloring for past, present and future scheduling. I think an important feature to implement in the future would be maybe a pop up reminder as to the next event like an alarm so the user doesn't miss a scheduled meeting for example. This could set this website apart and make it more user friendly. This is important because if the site is more user friendly then more people will probably want to use this service. My motivation to build this project was to help clients manage their daily schedules. 
 
+
 Installation: Using Chrome or a favorite browser to copy link https://melaniecisler.github.io/my-new-portfolio/Week5/Homework5/Develop/index.html
+
+To Use: Seeing today's date and using text box in the time slot you want to change, add or delete events then click save icon. Refreshing page should not affect saved changes as the new information is stored in local storage. 
