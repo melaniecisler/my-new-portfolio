@@ -1,0 +1,7 @@
+Project Title: Weather Dashboard
+
+Description: In this project the Weather Dashboard, the user is retrieving data from another application's API and using it in the context of this app. In this case we are using the OpenWeather API. The Weather Dashboard runs in the browser of your choosing and features dynamically updated HTML and CSS. Some challenges I faced was getting the current date to display for a given location. I also had some layout issues that with trial and error were resolved. I had to retrieve multiple weather image icons until i found a suitable size. Adding a better CSS layout to listed cities would help too as mine is pretty basic other than the list updating accurately. Another thing to add would be a suggested city if the user misspells the one they are looking for because then no cities show up.  Making the site as user friendly as possible will make more people want to use this service. My motivation to build this project was to help clients find the current and 5-Day Forecast for their chosen cities. 
+
+Installation: Using Chrome or a favorite browser, copy link in a new tab https://melaniecisler.github.io/my-new-portfolio/Week6/Homework6/index.html
+
+To Use: Enter city you would like to search, insuring the correct spelling. Click "Submit City" button. Click "your chosen city" button. View current and 5-Day Forecast. Then search for additional cities using the same process. 

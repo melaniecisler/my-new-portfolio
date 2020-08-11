@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<!--Head-->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Weather Dashboard</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- style css -->
+  <link rel="stylesheet" href="./assets/style.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<!--Body-->
+<body id="doc-body">
+  <div class="container-fluid">
+    <header>
+      <div id="titleHead">
+        <h1 id="title">Weather Dashboard</h1>
+      </div>
+    </header>
+    <div id="main" class="container-fluid">
+      <div class="row">
+        <div id="leftBar" class="col-md-3">
+          <!-- Search Area -->
+          <form id="searchForm">
+            <div class="row">
+              <div class="col-8">
+                <input type="text" id="enterCity" class="form-control" placeholder="Search for a City:" />
+              </div>
+              <div class="col-4">
+                <button type="submit" class="btn btn-outline-dark">
+                  Submit City
+                </button>
+              </div>
+            </div>
+          </form>
+          <!-- City Button -->
+          <div id="cityButtonsDiv"></div>
+        </div>
+        <div id="currentWeatherDisplayArea" class="col-md-9" style="display: none;">
+          <!-- Current Weather -->
+          <div class="card">
+            <div id="currentCityWeather" class="card-header"></div>
+            <div class="card-body">
+              <h5>Current Weather:</h5>
+              <p id="currentTemp" class="card-text"></p>
+              <p id="currentHumidity" class="card-text"></p>
+              <p id="currentWind" class="card-text"></p>
+              <p id="currentUVIndex" class="card-text"></p>
+            </div>
+          </div>
+          <!-- 5-Day Forecast Cards  -->
+          <div id="fiveDayDiv">
+            <div class="row">
+              <div class="offset-md-1">
+                <h4>5-Day Forecast:</h4>
+              </div>
+            </div>
+            <div id="fiveDayCardsDiv" class="row">
+              <div class="offset-md-1 col-md-2 fiveDayCard">
+                <h5 id="day1Date" class="card-title"></h5>
+                <img src="" id="day1Weather" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <p id="day1Temp" class="card-text"></p>
+                  <p id="day1Humidity" class="card-text"></p>
+                </div>
+              </div>
+              <div class="col-md-2 fiveDayCard">
+                <h5 id="day2Date" class="card-title"></h5>
+                <img src="" id="day2Weather" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <p id="day2Temp" class="card-text"></p>
+                  <p id="day2Humidity" class="card-text"></p>
+                </div>
+              </div>
+              <div class="col-md-2 fiveDayCard">
+                <h5 id="day3Date" class="card-title"></h5>
+                <img src="" id="day3Weather" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <p id="day3Temp" class="card-text"></p>
+                  <p id="day3Humidity" class="card-text"></p>
+                </div>
+              </div>
+              <div class="col-md-2 fiveDayCard">
+                <h5 id="day4Date" class="card-title"></h5>
+                <img src="" id="day4Weather" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <p id="day4Temp" class="card-text"></p>
+                  <p id="day4Humidity" class="card-text"></p>
+                </div>
+              </div>
+              <div class="col-md-2 fiveDayCard">
+                <h5 id="day5Date" class="card-title"></h5>
+                <img src="" id="day5Weather" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <p id="day5Temp" class="card-text"></p>
+                  <p id="day5Humidity" class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--connect to js file-->
+  <script src="./assets/app.js" async defer></script>
+</body>
+
+</html>

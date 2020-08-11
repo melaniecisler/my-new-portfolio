@@ -1,0 +1,73 @@
+#currentTemp {
+    color: black;
+}
+
+
+#doc-body {
+    background-color: white
+  }
+  
+  #titleHead {
+    display: block;
+    background-color: black;
+  }
+  
+  #title {
+    display: block;
+    color: white;
+    padding: 50px;
+  }
+  
+  #cityButtonsDiv {
+    padding: 25px 0 0 0;
+    
+  }
+  
+  .cityPresetBtn {
+    margin: 2px 0;
+    background-color: blue;
+    color: white;
+  }
+  
+  #fiveDayDiv {
+    margin-top: 25px;
+  }
+  
+  .fiveDayCard {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+  }
+  
+  .card-img-top {
+    height: 36px;
+    width: 36px !important;
+    
+  }
+  
+  .card-header {
+    background-color: white !important;
+    font-weight: bolder;
+  }
+  
+  .cityPresetBtn {
+    width: 100%;
+    padding: 5px;
+    
+  }
+  
+  .card {
+    background-color: white !important;
+  }
+  
+  #cityInputField {
+    background-color: white;
+  }
+  
+  #enterCity.placeholder {
+    font: black;
+  }
+  
+  
